@@ -1,0 +1,54 @@
+:root {
+    --gradient:  #0c1c2c;
+
+  }
+  
+
+  
+  .card {
+    background: #ffff;
+    border: 1px solid  #0c1c2c;
+    color: #333333 
+    ;
+    margin-bottom: 2rem;
+ 
+  }
+  
+  .btn-personalizado {
+border-color: #0c1c2c;
+    color: #ffff;
+    border-radius: 5px;
+    background-color: var(--gradient);
+  padding: 5px;
+    text-decoration: none;
+    transition: all .4s ease;
+    
+  }
+  
+  .btn-personalizado:hover, .btn:focus {
+        background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #ffffff !important;
+   
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
+
+
+  #tarjetas{
+
+    display: flex;
+    justify-content: center; /* This centers the row's content horizontally */
+    align-items: center; /* This centers the row's content vertically if needed */
+  }
+  
+
+
+#encabezado{
+
+    text-align: center;
+
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
